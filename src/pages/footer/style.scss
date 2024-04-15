@@ -1,0 +1,101 @@
+.footer{
+    display: flex;
+    background: #222021;
+    box-shadow: 0px -6px 52px 0px rgba(245, 245, 245, 0.17);
+    justify-content: center;
+    padding-bottom: 70px;
+    .footer_logo{
+        display: flex;
+        margin-left: 102px;
+        padding-top: 70px;
+    }
+    .footer__menu{
+        display: flex;
+        color: #F5F5F5;
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 139.4%; /* 41.82px */
+        padding-top: 89px;
+        
+
+        .footer__menu1{
+            img{width: 50px;
+                height: 50px;}
+            flex-shrink: 0;
+            margin-left: 70px;
+        }
+        .footer__menu2{
+            width: 291px;
+            margin-left: 14px;
+        }
+        .footer__menu3{
+            img{width: 50px;
+                height: 50px;}
+            flex-shrink: 0;
+            margin-left: 107px;
+        }
+        .footer__menu4{
+            width: 377px;
+            margin-left: 14px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .footer{
+        display: flex;
+        background: #222021;
+        box-shadow: 0px -6px 52px 0px rgba(245, 245, 245, 0.17);
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 70px;
+        .footer_logo{
+            display: flex;
+            margin-left: 106px;
+            padding-top: 70px;
+            img{width: 162.211px;
+                height: 69px;}
+            
+        }
+        .footer__menu{
+            display: flex;
+            flex-direction: row;
+            color: #F5F5F5;
+            font-family: Inter;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 139.4%; /* 41.82px */
+            padding-top: 89px;
+            color: #F5F5F5;
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 139.4%; /* 20.91px */
+            margin-left: 70px;
+            .footer__menu1{
+                img{width: 24px;
+                    height: 24px;}
+                flex-shrink: 0;
+                margin-left: 0px;
+            }
+            .footer__menu2{
+                width: 130px;
+                margin-left: 0px;
+            }
+            .footer__menu3{
+                img{width: 24px;
+                    height: 24px;}
+                flex-shrink: 0;
+                margin-left: 0px;
+            }
+            .footer__menu4{
+                width: 100px;
+                margin-left: 0px;
+            }
+        }
+    }
+}
